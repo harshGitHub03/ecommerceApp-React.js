@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body{
+    overflow-x: hidden;
+} */
+
+/* Navlinks active */
+.active {
+    color: green;
+    position: relative
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    height: 2px;
+    width:20px;
+    background: #008000f5;
+}
