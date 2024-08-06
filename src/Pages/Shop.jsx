@@ -7,7 +7,7 @@ import ShopContent from '../Components/ShopComponents/ShopContent'
 function Shop() {
   return (
     <div>
-    <NavPagesHero navHeroImg={shopHeroImg} text={{ heading: '#KnowUs', subText: 'Explore Cara story from behind!' }} />
+    <NavPagesHero navHeroImg={shopHeroImg} text={{ heading: '#stayhome', subText: 'Save more with coupons & up to 70% off!' }} />
     <ShopContent/>
     </div>
   )
