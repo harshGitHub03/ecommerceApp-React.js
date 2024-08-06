@@ -53,7 +53,7 @@ function Payment({ setPaymentDisplay }) {
 
                 <hr className='border' />
 
-                <form onSubmit={(e) => e.preventDefault()} className='flex flex-col max-md:gap-3 gap-4'>
+                <form onSubmit='' className='flex flex-col max-md:gap-3 gap-4'>
                     <div className='flex flex-wrap items-center gap-1 justify-between'>
                         <h3 className='font-medium text-2xl text-black'>Payment Method</h3>
                         <img src="/src/assets/FooterAssets/pay.png" className='h-[1.5rem] max-sm:h-[1.2rem] w-fit' alt="" />
